@@ -5,6 +5,7 @@
 	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License 2.0</license>
 	<author url="http://miklb.com">Michael Bishop</author>
 	<version>0.1</version>
+	<guid>47BE2025-7901-44B4-B618-E7640DA4F854</guid>
 	<url>http://miklb.com/</url>
 	<description><![CDATA[Simple plugin to load <a href="http://highlightjs.org">highlight.js</a> for syntax highlighting.]]></description>
 	<copyright>2014</copyright>
