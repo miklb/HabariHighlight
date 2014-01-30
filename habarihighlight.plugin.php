@@ -36,6 +36,7 @@ class HabariHighlight extends Plugin
 		if ( $this->plugin_id()==$plugin_id && $action=='Configure' ) {
 			$form = new FormUI( strtolower(get_class( $this ) ) );
 			$form->append( 'select', 'highlighttheme', 'option:habarihighlight_theme', _t('Choose Highlight.js Theme'));
+			$form->highlighttheme->value = 'default';
 			$form->highlighttheme->options = array (
 				'default'=>'Default',
 				'arta'=>'Arta',
@@ -79,7 +80,6 @@ class HabariHighlight extends Plugin
 				'xcode' => 'XCode',
 				'zenburn' => 'Zenburn'
 			);
-			$form->highlighttheme->value = 'default';
 			$form->append( 'submit', 'save', _t( 'Save' ) );
 			$form->out();
 		}
