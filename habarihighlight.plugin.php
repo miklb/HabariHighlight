@@ -79,6 +79,7 @@ class HabariHighlight extends Plugin
 				'xcode' => 'XCode',
 				'zenburn' => 'Zenburn'
 			);
+			$form->highlighttheme->value = 'default';
 			$form->append( 'submit', 'save', _t( 'Save' ) );
 			$form->out();
 		}
